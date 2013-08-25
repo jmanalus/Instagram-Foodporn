@@ -1,0 +1,100 @@
+
+/* =============================================================================
+   Containers and Holder
+   ========================================================================== */
+
+section{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+div.holder{
+	position: relative;
+	max-width:620px;
+	padding:10px;
+	margin:0 auto;
+}
+.grids{
+	width:auto;
+	max-width:640px;
+	clear:both;
+	margin:0 0 0 -3.125%;
+	list-style:none; /* So we can make grids out of lists. */
+	overflow:hidden; /* Clear the floats */
+}
+/* =============================================================================
+   Generic Styling
+   ========================================================================== */
+
+h1{
+	font-size: 18px;
+	margin: 5px 0;
+}
+h2{
+	font-size: 14px;
+	margin: 5px 0;
+}
+h3{
+	font-size: 16px;
+	margin: 10px 0;
+	color:#7cd281;
+}
+ul li{
+	padding: 0 0 15px 25px;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+body {
+	background-color: #3b3b3b;
+}
+header h1, header h2{
+	width: 100%;
+	text-align: center;
+	color:#7cd281;
+}
+header h2{
+	margin-bottom: 10px;
+}
+
+/* =========================
+   Instagram Feed
+   ====================== */
+section#contact article{
+	float: left;
+	width: 100%;
+	margin: 20px 0 25px 0;
+}
+section#contact article h3{
+	margin: 10px 0 5px 0;
+	display: none;
+}
+section#contact article a{
+	float: left;
+	background: url('img/grey.gif') repeat;
+	width: 20.56%;
+	height: auto;
+	padding: 1.47%;
+	margin: 6px 0px 6px 2%;
+}
+.lt-ie9 section#contact article a{
+	width: 20%;
+}
+section#contact article a:hover{
+	background: #f0ff71;
+}
+section#contact article a:hover img{
+	opacity: 0.7;
+}
+section#contact article a img{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+section#contact article a:nth-child(4n+2) {
+	margin: 6px 0;
+}
+
+
